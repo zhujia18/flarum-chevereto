@@ -1,0 +1,15 @@
+jasper-chevereto:
+    admin:
+        permissions:
+            upload_label: Chevereto Upload
+        labels:
+            setting:
+                title: Chevereto Upload Setting
+                src: Src
+                url: Url
+                lang: Lang
+        buttons:
+            save: Save settings
+        help_texts:
+            description: >
+                Set up chevereto image hosting upload extension.

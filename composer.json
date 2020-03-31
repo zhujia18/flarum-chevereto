@@ -1,0 +1,40 @@
+{
+    "name": "jasper/chevereto",
+    "description": "Chevereto image hosting upload extension for the Flarum forum, using Chevereto's pup upload plugin.",
+    "keywords": [
+        "flarum",
+        "chevereto",
+        "image hosting",
+        "pup"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Chevereto",
+            "icon": {
+                "name": "fas fa-cloud-upload",
+                "backgroundColor": "#77d2f2",
+                "color": "#fffbff"
+            }
+        }
+    },
+    "authors": [{
+        "name": "Jasper",
+        "email": "zhujiap.cn@gmail.com",
+        "homepage": "https://zasper.me"
+    }],
+    "autoload": {
+        "psr-4": {
+          "Jasper\\Chevereto\\": "src/"
+        }
+      },
+    "support": {
+        "email": "zhujiap.cn@gmail.com",
+        "issues": "https://github.com/zhujia18/flarum-chevereto/issues",
+        "source": "https://github.com/zhujia18/flarum-chevereto"
+    }
+}

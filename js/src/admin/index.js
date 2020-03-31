@@ -1,0 +1,15 @@
+import {extend} from "flarum/extend";
+import app from "flarum/app";
+import PermissionGrid from "flarum/components/PermissionGrid";
+import addCheveretoPane from "./addCheveretoPane";
+
+app.initializers.add('jasper-chevereto', app => {
+    addCheveretoPane();
+    extend(PermissionGrid.prototype, 'startItems', items => {
+        items.add('chevereto', {
+            icon: 'far fa-cloud-upload',
+            label: app.translator.trans('jasper-chevereto.admin.permissions.upload_label'),
+            permission: 'jasper.chevereto'
+        });
+    });
+});

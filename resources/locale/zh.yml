@@ -1,0 +1,15 @@
+jasper-chevereto:
+    admin:
+        permissions:
+            upload_label: Chevereto图床上传
+        labels:
+            setting:
+                title: Chevereto图床上传设定
+                src: Src
+                url: Url
+                lang: 语言
+        buttons:
+            save: 保存设定
+        help_texts:
+            description: >
+                Chevereto图床设定
