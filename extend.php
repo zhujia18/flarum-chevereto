@@ -1,6 +1,6 @@
 <?php
 
-namespace Jasper\Chevereto;
+namespace Zhujia18\Chevereto;
 
 use Flarum\Extend;
 

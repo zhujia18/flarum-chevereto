@@ -1,5 +1,5 @@
 {
-    "name": "jasper/chevereto",
+    "name": "zhujia18/chevereto",
     "description": "Chevereto image hosting upload extension for the Flarum forum, using Chevereto's pup upload plugin.",
     "keywords": [
         "flarum",
@@ -29,7 +29,7 @@
     }],
     "autoload": {
         "psr-4": {
-          "Jasper\\Chevereto\\": "src/"
+          "zhujia18\\Chevereto\\": "src/"
         }
       },
     "support": {
