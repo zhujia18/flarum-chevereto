@@ -16,10 +16,12 @@
         "flarum-extension": {
             "title": "Chevereto",
             "icon": {
-                "name": "fas fa-upload",
-                "backgroundColor": "#77d2f2",
-                "color": "#fffbff"
-            }
+                "image": "resources/icon.svg",
+                "backgroundColor": "#5f4bb6",
+                "backgroundSize": "90%",
+                "backgroundRepeat": "no-repeat",
+                "backgroundPosition": "center"
+            },
         }
     },
     "authors": [{
