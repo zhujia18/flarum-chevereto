@@ -1,15 +1,15 @@
 jasper-chevereto:
     admin:
         permissions:
-            upload_label: Chevereto Upload
-        labels:
-            setting:
-                title: Chevereto Upload Setting
-                src: Src
-                url: Url
-                lang: Lang
+            upload: Chevereto Upload
+        setting:
+            title: Chevereto Upload Setting
+            src: Chevereto's popup upload plugin(pup.js) source URL
+            url: URL of the target Chevereto website
+            auto-insert: Embed codes to auto insert in the target editable content
+            lang: Language
         buttons:
             save: Save settings
-        help_texts:
+        AdminNav:
             description: >
-                Set up chevereto image hosting upload extension.
+                Set up chevereto image hosting extension

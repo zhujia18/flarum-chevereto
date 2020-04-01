@@ -8,7 +8,7 @@ app.initializers.add('jasper-chevereto', app => {
     extend(PermissionGrid.prototype, 'startItems', items => {
         items.add('chevereto', {
             icon: 'far fa-cloud-upload',
-            label: app.translator.trans('jasper-chevereto.admin.permissions.upload_label'),
+            label: app.translator.trans('jasper-chevereto.admin.permissions.upload'),
             permission: 'jasper.chevereto'
         });
     });

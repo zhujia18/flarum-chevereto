@@ -11,7 +11,7 @@ export default function () {
             href: app.route('jasper-chevereto'),
             icon: 'far fa-cloud-upload',
             children: 'Chevereto',
-            description: app.translator.trans('jasper-chevereto.admin.help_texts.description')
+            description: app.translator.trans('jasper-chevereto.admin.AdminNav.description')
         }));
     });
 }

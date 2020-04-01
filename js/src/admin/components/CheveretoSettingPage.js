@@ -10,6 +10,7 @@ export default class UploadPage extends Component {
         this.fields = [
             'src',
             'url',
+            'autoinsert',
             'lang',
         ];
         const settings = app.data.settings;
@@ -28,20 +29,26 @@ export default class UploadPage extends Component {
                         m('fieldset', {
                             className: 'CheveretoPage-Setting',
                         }, [
-                            m('legend', {}, app.translator.trans('jasper-chevereto.admin.labels.setting.title')),
-                            m('label', {}, app.translator.trans('jasper-chevereto.admin.labels.setting.src')),
+                            m('legend', {}, app.translator.trans('jasper-chevereto.admin.setting.title')),
+                            m('label', {}, app.translator.trans('jasper-chevereto.admin.setting.src')),
                             m('input', {
                                 className: 'FormControl',
                                 value: this.values.src() || '',
                                 oninput: m.withAttr('value', this.values.src)
                             }),
-                            m('label', {}, app.translator.trans('jasper-chevereto.admin.labels.setting.url')),
+                            m('label', {}, app.translator.trans('jasper-chevereto.admin.setting.url')),
                             m('input', {
                                 className: 'FormControl',
                                 value: this.values.url() || '',
                                 oninput: m.withAttr('value', this.values.url)
                             }),
-                            m('label', {}, app.translator.trans('jasper-chevereto.admin.labels.setting.lang')),
+                            m('label', {}, app.translator.trans('jasper-chevereto.admin.setting.auto-insert')),
+                            m('input', {
+                                className: 'FormControl',
+                                value: this.values.autoinsert() || '',
+                                oninput: m.withAttr('value', this.values.autoinsert)
+                            }),
+                            m('label', {}, app.translator.trans('jasper-chevereto.admin.setting.lang')),
                             m('input', {
                                 className: 'FormControl',
                                 value: this.values.lang() || '',

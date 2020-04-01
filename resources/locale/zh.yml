@@ -1,15 +1,15 @@
 jasper-chevereto:
     admin:
         permissions:
-            upload_label: Chevereto图床上传
-        labels:
-            setting:
-                title: Chevereto图床上传设定
-                src: Src
-                url: Url
-                lang: 语言
+            upload: Chevereto上传
+        setting:
+            title: Chevereto上传设置
+            src: Chevereto图床的PUP(pup.js)上传插件源地址
+            url: Chevereto图床上传地址
+            auto-insert: 向文本编辑区自动插入图片上传后的嵌入代码
+            lang: 语言
         buttons:
-            save: 保存设定
-        help_texts:
+            save: 保存设置
+        AdminNav:
             description: >
-                Chevereto图床设定
+                设置Chevereto的相关功能
