@@ -1,4 +1,5 @@
 import Component from 'flarum/Component';
+import saveSettings from 'flarum/utils/saveSettings';
 
 export default class CheveretoButton extends Component {
     init() {
