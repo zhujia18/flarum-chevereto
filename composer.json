@@ -16,7 +16,7 @@
         "flarum-extension": {
             "title": "Chevereto",
             "icon": {
-                "name": "fa fa-cloud-upload",
+                "name": "fas fa-upload",
                 "backgroundColor": "#77d2f2",
                 "color": "#fffbff"
             }
