@@ -38,17 +38,17 @@ export default class CheveretoButton extends Component {
         script.async = true;
         script.setAttribute('data-sibling-pos', 'after');
         script.setAttribute('data-sibling', '#chevereto-mark');
-        if (this.values.src()) {
-            script.src = this.values.src();
+        if (this.values['src']) {
+            script.src = this.values['src'];
         }
-        if (this.values.url()) {
-            script.setAttribute('data-url', this.values.url());
+        if (this.values['url']) {
+            script.setAttribute('data-url', this.values['url']);
         }
-        if (this.values.lang()) {
-            script.setAttribute('data-lang', this.values.lang());
+        if (this.values['lang']) {
+            script.setAttribute('data-lang', this.values['lang']);
         }
-        if (this.values.autoinsert()) {
-            script.setAttribute('data-auto-insert', this.values.autoinsert());
+        if (this.values['autoinsert']) {
+            script.setAttribute('data-auto-insert', this.values['autoinsert']);
         }
         document.head.appendChild(script);
     }
