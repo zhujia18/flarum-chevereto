@@ -15,5 +15,6 @@ return [
     new Extend\Locales(__DIR__ . '/resources/locale'),
     function (Dispatcher $events) {
         $events->subscribe(Listeners\AddCheveretoApi::class);
+        $events->subscribe(Listeners\LoadSettingsFromDatabase::class);
     },
 ];

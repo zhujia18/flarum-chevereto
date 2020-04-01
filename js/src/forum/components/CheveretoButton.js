@@ -1,5 +1,5 @@
 import Component from 'flarum/Component';
-import saveSettings from 'flarum/utils/saveSettings';
+import app from 'flarum/app';
 
 export default class CheveretoButton extends Component {
     init() {
@@ -9,11 +9,10 @@ export default class CheveretoButton extends Component {
             'autoinsert',
             'lang',
         ];
-        const settings = app.data.settings;
         this.settingsPrefix = 'jasper.chevereto';
         this.values = {};
         this.fields.forEach(key =>
-            this.values[key] = m.prop(settings[this.addPrefix(key)])
+            this.values[key] = app.forum.attribute(this.addPrefix(key))
         );
     }
 
