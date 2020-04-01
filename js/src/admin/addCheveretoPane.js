@@ -9,7 +9,7 @@ export default function () {
     extend(AdminNav.prototype, 'items', items => {
         items.add('jasper-chevereto', AdminLinkButton.component({
             href: app.route('jasper-chevereto'),
-            icon: 'far fa-cloud-upload',
+            icon: 'fas fa-upload',
             children: 'Chevereto',
             description: app.translator.trans('jasper-chevereto.admin.AdminNav.description')
         }));
