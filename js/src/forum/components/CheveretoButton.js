@@ -1,4 +1,4 @@
-import Component from "flarum/Component";
+import Component from 'flarum/Component';
 
 export default class CheveretoButton extends Component {
     init() {
