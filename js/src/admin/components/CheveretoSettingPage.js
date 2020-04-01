@@ -3,7 +3,7 @@ import Button from 'flarum/components/Button';
 import saveSettings from 'flarum/utils/saveSettings';
 import Alert from 'flarum/components/Alert';
 
-export default class UploadPage extends Component {
+export default class CheveretoSettingPage extends Component {
 
     init() {
         this.loading = false;
